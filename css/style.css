@@ -1,0 +1,29 @@
+contacto{
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+#datos{
+    width: 649px;
+    height:979;
+    background-color: rgba(221, 244, 255, 1);
+    margin: 0 auto;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.20) 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid #5081a0;
+    padding: 1.5rem;
+
+}
+Button{
+width: 149px;
+height: 54px;
+background-color: rgba(0,137,208,1);
+top: 950px;
+left: 1069px;
+border-radius: 20%;
+}

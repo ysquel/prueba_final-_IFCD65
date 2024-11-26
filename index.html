@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATE CON NOSOTROS</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div id="contenedor"></div>
+    <!-- crear un formulario
+        Input de:
+            Nombre
+            Apellidos
+            Email de contacto
+            Num. de Contacto
+            Motivo de contacto  selec con 4 selectores
+            Descripción del problema
+            
+        botón de enviar    
+
+        nota de agradecimiento si todo está ok
+
+        en caso de fallo los inputs deben tener los borde rojos y placeholder "debe introducir datos váñidos"
+    -->
+    <form id="contacto">
+		<div id="datos">
+			<label for="Nombre Completo">Nombre completo</label>
+			<input type="text" id="ncomple" name="ncomple" required placeholder="Nombre completo"><br>
+			<label for="email">E-mail</label>
+			<input type="email" id="email" name="email" placeholder="e-mail"><br>
+			<label for="Motivo del contacto">Motivo del contacto</label>
+			<select id="">
+				<option value="" selected>Motivo de su queja</option>
+				<option value="El wifi no funciona">El wifi no funciona</option>
+				<option value="No hay toallas">No hay toallas</option>
+				<option value="Falta de limpieza">Falta de limpieza</option>
+                <option value="No hay aire acondicionado">no hay aire acondicionado</option>
+
+			</select>
+		
+        <div id="Descripción del problema">
+			<p>Descripción del problema</p>
+			<textarea></textarea>
+        </div>
+
+		<div id="Button">
+            <button  id="submit"   type="submit" value="submit">Enviar</button>
+		</div>
+		<p>Gracias por tu participación</p>
+    </div>   
+</body>
+<script src="js/script.js"></script>
+</html>
